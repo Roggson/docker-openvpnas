@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -z "$INTERFACE" ]; then
-SET_INTERFACE="bond0"
+SET_INTERFACE="eth0"
 else
 SET_INTERFACE=$INTERFACE
 fi
